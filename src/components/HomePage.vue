@@ -18,9 +18,9 @@
         <p class="paragraph-font-left">
               Dodona performs the music that crosses the border between Epirus in Greece and Southern Albania. Each note in every song contains longing, romance, nostalgia, and celebration. This heartfelt and exciting group brings out their love for this specific region through the melodies that are both unique and everlasting. With a repertoire that goes from plaintive, to trance inducing, to driving, Dodona is one of the few bands in the Bay Area specifically focused on the Albanian and Epirus diaspora. So whether you love a good line dance with community, or even if you just love to dance with wild abandon, this unique project creates spaces both transcendent and uplifting. 
         </p>
-        <center>
+        <!-- <center>
           <img width='70%' alt="Graphic by Jenette Sellin" src="../assets/map.png">
-        </center>
+        </center> -->
         <p class="paragraph-font-left">
               Dodona’s members are Genevieve Krause on vocals, Kent Kessinger on guitar, Jenette Sellin on accordion, Gregory Masaki Jenkins on vocals and clarinet, Sean Tergis on percussion, and Calvin Lai on clarinet.
         </p>
