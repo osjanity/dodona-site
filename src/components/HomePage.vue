@@ -36,25 +36,27 @@
       <!-- Performances -->
       <div class="container-flavor">
         <h1 class="header-font-left" > Performances </h1> 
-        <p class="paragraph-font-left">
-        Upcoming
-             <ul> ⟡ <strong> 1/17/2026 </strong> - Berkeley Balkan Bacchanal, Starry Plough Pub, Berkeley, CA </ul>
-
-        Past
-             <ul> <strong> ⟡ 10/17/25 </strong> - Bakers and Commons, Berkeley, CA </ul>
-             <ul> <strong> ⟡ 9/5/25 </strong> - Selkie Fest, Fremont, CA </ul>
-             <ul> <strong> ⟡ 7/19/25 </strong> - Berkeley Balkan Bacchanal, Starry Plough Pub, Berkeley, CA </ul>
-             <ul> <strong> ⟡ 7/2/25 </strong> - Balkan Camp, Mendocino, CA </ul>
-             <ul> <strong> ⟡ 6/7/25 </strong> - Occidental World Music Fest, Occidental, CA </ul>
-             <ul> <strong> ⟡ 1/18/25 </strong> - Berkeley Balkan Bacchanal, Starry Plough Pub, Berkeley, CA </ul>
-             <ul> <strong> ⟡ 12/31/24 </strong> - New Year’s Eve Balkan Bash, Ashkenaz, Berkeley, CA </ul>
-             <ul> <strong> ⟡ 11/22/24 </strong> - Lost Church, San Francisco, CA </ul>
-             <ul> <strong> ⟡ 7/20/24 </strong> - Berkeley Balkan Bacchanal, Ashkenaz, Berkeley, CA </ul>
-             <ul> <strong> ⟡ 5/19/24 </strong> - Balkan Sundays, Bissap Baobab, San Francisco, CA </ul>
-             <ul> <strong> ⟡ 3/16/24 </strong> - Berkeley Balkan Bacchanal, Starry Plough Pub, Berkeley, CA </ul>
+        <h3 class="header-font-left"> Upcoming </h3>
+        <p class="paragraph-font-left indented-list">
+           <!-- Edit below this line to add a new entry for Past Show -->
+            <strong> ⟡ 1/17/2026 </strong> - Berkeley Balkan Bacchanal, Starry Plough Pub, Berkeley, CA 
         </p>
-
-
+        <h3 class="header-font-left"> Past </h3>
+        <p class="paragraph-font-left indented-list">
+          <!-- Edit below this line to add a new entry for a Past Show -->
+             <strong> ⟡ 10/17/25 </strong> - Bakers and Commons, Berkeley, CA <br>
+             <strong> ⟡ 9/5/25 </strong> - Selkie Fest, Fremont, CA <br>
+             <strong> ⟡ 7/19/25 </strong> - Berkeley Balkan Bacchanal, Starry Plough Pub, Berkeley, CA <br>
+             <strong> ⟡ 7/2/25 </strong> - Balkan Camp, Mendocino, CA <br>
+             <strong> ⟡ 6/7/25 </strong> - Occidental World Music Fest, Occidental, CA <br>
+             <strong> ⟡ 1/18/25 </strong> - Berkeley Balkan Bacchanal, Starry Plough Pub, Berkeley, CA <br>
+             <strong> ⟡ 12/31/24 </strong> - New Year’s Eve Balkan Bash, Ashkenaz, Berkeley, CA <br>
+             <strong> ⟡ 11/22/24 </strong> - Lost Church, San Francisco, CA <br>
+             <strong> ⟡ 7/20/24 </strong> - Berkeley Balkan Bacchanal, Ashkenaz, Berkeley, CA <br>
+             <strong> ⟡ 5/19/24 </strong> - Balkan Sundays, Bissap Baobab, San Francisco, CA <br>
+             <strong> ⟡ 3/16/24 </strong> - Berkeley Balkan Bacchanal, Starry Plough Pub, Berkeley, CA <br>
+        </p>
+        
 
       <!-- Contact-->
       <br>
@@ -146,6 +148,11 @@
 .container-flavor {
   padding: 50px 5% 50px;
   background-color: #181F2A;
+}
+.indented-list {
+  margin-left: 50px;
+  background-color: #181F2A;
+  line-height: 2;
 }
 .youtube-container {
   padding: 20px 5% 20px;
