@@ -2,6 +2,7 @@
   <center>
   <div class="meta-container">
 
+
       <!-- Header -->
       <header class="header">
         <center>
@@ -10,6 +11,7 @@
         </center>
       </header>
     
+
       <!-- Main text -->
       <div class="container-flavor">
         <h1 class="header-font-left"> Music from Epirus and Albania </h1>
@@ -17,20 +19,18 @@
               Dodona performs the music that crosses the border between Epirus in Greece and Southern Albania. Each note in every song contains longing, romance, nostalgia, and celebration. This heartfelt and exciting group brings out their love for this specific region through the melodies that are both unique and everlasting. With a repertoire that goes from plaintive, to trance inducing, to driving, Dodona is one of the few bands in the Bay Area specifically focused on the Albanian and Epirus diaspora. So whether you love a good line dance with community, or even if you just love to dance with wild abandon, this unique project creates spaces both transcendent and uplifting. 
         </p>
         <center>
-          <img width='60%' alt="Graphic by Jenette Sellin" src="../assets/map-gr-al.png">
+          <img width='70%' alt="Graphic by Jenette Sellin" src="../assets/map.png">
         </center>
         <p class="paragraph-font-left">
               Dodona’s members are Genevieve Krause on vocals, Kent Kessinger on guitar, Jenette Sellin on accordion, Gregory Masaki Jenkins on vocals and clarinet, Sean Tergis on percussion, and Calvin Lai on clarinet.
         </p>
       </div>
 
-    
+  
       <!-- Youtube Player -->
         <div class="youtube-container">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL2LJVnzoi_n3hIyfk5msH0QX74IsoYAmU&autohide=1&showinfo=0&controls=1&playlist=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div> 
-
-
 
 
       <!-- Performances -->
@@ -49,7 +49,7 @@
              <ul> <strong> ⟡ 1/18/25 </strong> - Berkeley Balkan Bacchanal, Starry Plough Pub, Berkeley, CA </ul>
              <ul> <strong> ⟡ 12/31/24 </strong> - New Year’s Eve Balkan Bash, Ashkenaz, Berkeley, CA </ul>
              <ul> <strong> ⟡ 11/22/24 </strong> - Lost Church, San Francisco, CA </ul>
-             <ul> <strong> ⟡ 7/20/24 </strong> - Berkeley Balkan Bacchanal, Starry Plough, Berkeley, CA </ul>
+             <ul> <strong> ⟡ 7/20/24 </strong> - Berkeley Balkan Bacchanal, Ashkenaz, Berkeley, CA </ul>
              <ul> <strong> ⟡ 5/19/24 </strong> - Balkan Sundays, Bissap Baobab, San Francisco, CA </ul>
              <ul> <strong> ⟡ 3/16/24 </strong> - Berkeley Balkan Bacchanal, Starry Plough Pub, Berkeley, CA </ul>
         </p>
