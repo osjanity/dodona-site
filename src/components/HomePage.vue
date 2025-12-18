@@ -38,7 +38,7 @@
         <h1 class="header-font-left" > Performances </h1> 
         <h3 class="header-font-left"> Upcoming </h3>
         <p class="paragraph-font-left indented-list">
-           <!-- Edit below this line to add a new entry for Past Show -->
+           <!-- Edit below this line to add a new entry for an Upcoming Show -->
             <strong> ⟡ 1/17/2026 </strong> - Berkeley Balkan Bacchanal, Starry Plough Pub, Berkeley, CA 
         </p>
         <h3 class="header-font-left"> Past </h3>
@@ -56,7 +56,7 @@
              <strong> ⟡ 5/19/24 </strong> - Balkan Sundays, Bissap Baobab, San Francisco, CA <br>
              <strong> ⟡ 3/16/24 </strong> - Berkeley Balkan Bacchanal, Starry Plough Pub, Berkeley, CA <br>
         </p>
-        
+
 
       <!-- Contact-->
       <br>
