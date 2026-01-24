@@ -1,7 +1,7 @@
+
 <template>
   <center>
   <div class="meta-container">
-
 
       <!-- Header -->
       <header class="header">
@@ -10,56 +10,29 @@
           <img width='50%' alt="Graphic by Jenette Sellin" src="../assets/dodona.png">
         </center>
       </header>
-    
 
-      <!-- Main text -->
+      <!-- Main text and map -->
       <div class="container-flavor">
         <h1 class="header-font-left"> Music from Epirus and Albania </h1>
         <p class="paragraph-font-left">
               Dodona performs the music that crosses the border between Epirus in Greece and Southern Albania. Each note in every song contains longing, romance, nostalgia, and celebration. This heartfelt and exciting group brings out their love for this specific region through the melodies that are both unique and everlasting. With a repertoire that goes from plaintive, to trance inducing, to driving, Dodona is one of the few bands in the Bay Area specifically focused on the Albanian and Epirus diaspora. So whether you love a good line dance with community, or even if you just love to dance with wild abandon, this unique project creates spaces both transcendent and uplifting. 
         </p>
-        <!-- <center>
-          <img width='70%' alt="Graphic by Jenette Sellin" src="../assets/map.png">
-        </center> -->
         <p class="paragraph-font-left">
               Dodona’s members are Genevieve Krause on vocals, Kent Kessinger on guitar, Jenette Sellin on accordion, Gregory Masaki Jenkins on vocals and clarinet, Sean Tergis on percussion, and Calvin Lai on clarinet.
         </p>
+        <!-- Map -->
+        <!-- <center>
+          <img width='75%' alt="Graphic by Jenette Sellin" src="../assets/map.png">
+        </center> -->
       </div>
 
-  
       <!-- Youtube Player -->
         <div class="youtube-container">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL2LJVnzoi_n3hIyfk5msH0QX74IsoYAmU&autohide=1&showinfo=0&controls=1&playlist=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div> 
 
-
-      <!-- Performances -->
-      <div class="container-flavor">
-        <h1 class="header-font-left" > Performances </h1> 
-        <h3 class="header-font-left"> Upcoming </h3>
-        <p class="paragraph-font-left indented-list">
-           <!-- Edit below this line to add a new entry for an Upcoming Show -->
-            <strong> ⟡ 5/30/2026 </strong> - Third Annual Occidental World Music and Dance Festival, Occidental Center for the Arts, Occidental, CA <br>
-        </p>
-        <h3 class="header-font-left"> Past </h3>
-        <p class="paragraph-font-left indented-list">
-          <!-- Edit below this line to add a new entry for a Past Show -->
-             <strong> ⟡ 1/17/2026 </strong> - Berkeley Balkan Bacchanal, Starry Plough Pub, Berkeley, CA <br>
-             <strong> ⟡ 10/17/25 </strong> - Bakers and Commons, Berkeley, CA <br>
-             <strong> ⟡ 9/5/25 </strong> - Selkie Fest, Fremont, CA <br>
-             <strong> ⟡ 7/19/25 </strong> - Berkeley Balkan Bacchanal, Starry Plough Pub, Berkeley, CA <br>
-             <strong> ⟡ 7/2/25 </strong> - EEFC Balkan Camp, Mendocino, CA <br>
-             <strong> ⟡ 6/7/25 </strong> - Second Annual Occidental World Music and Dance Festival, Occidental Center for the Arts, Occidental, CA <br>
-             <strong> ⟡ 1/18/25 </strong> - Berkeley Balkan Bacchanal, Starry Plough Pub, Berkeley, CA <br>
-             <strong> ⟡ 12/31/24 </strong> - Balkan New Year’s Eve, Ashkenaz, Berkeley, CA <br>
-             <strong> ⟡ 11/22/24 </strong> - The Lost Church, San Francisco, CA <br>
-             <strong> ⟡ 7/20/24 </strong> - Berkeley Balkan Bacchanal, Ashkenaz, Berkeley, CA <br>
-             <strong> ⟡ 5/19/24 </strong> - Balkan Sundays, Bissap Baobab, San Francisco, CA <br>
-             <strong> ⟡ 3/16/24 </strong> - Berkeley Balkan Bacchanal, Starry Plough Pub, Berkeley, CA <br>
-        </p>
-
-
       <!-- Contact-->
+       <div class="booking-container">
       <br>
         <h1 class="header-font-left" > Contact </h1>
         <p class="paragraph-font-left">
@@ -68,10 +41,8 @@
         </p>
       </div>
 
-
-
-       <Container>
         <!-- FB and Youtube icon links -->
+        <Container>
          <div class="icon-link-container">
               <a class="link-colors" href="https://www.facebook.com/p/Dodona-61559323565103/">
                 <img class="icon-link" width='25px' alt="Link to FZ Facebook Page" src="../assets/fb-icon.png">
@@ -92,12 +63,6 @@
 
 
 <style scoped>
-
-/* Styles a specific list with an ID of "myList" */
-#myList {
-  list-style-type: circle; /* Changes bullets to hollow circles */
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 .meta-container{ 
@@ -147,7 +112,8 @@
   font-size: large;
 }
 .container-flavor {
-  padding: 50px 5% 50px;
+  /* padding: 55px 55px 5% 50px; */
+  padding: 10px 100px;
   background-color: #181F2A;
 }
 .indented-list {
