@@ -5,9 +5,10 @@
         <i :class="isOpen ? 'fas fa-times' : 'fas fa-bars'"></i>
       </div>
       <ul :class="{ 'nav-links': true, 'open': isOpen }">
-        <li><router-link to="/" @click="closeMenu">Home</router-link></li>
-        <li><router-link to="/sound" @click="closeMenu">Sound</router-link></li>
-        <li><router-link to="/performances" @click="closeMenu">Performances</router-link></li>
+        <li><router-link to="/" @click="closeMenu">home</router-link></li>
+        <li><router-link to="/performances" @click="closeMenu">performances</router-link></li>
+        <!-- <li><router-link to="/sound" @click="closeMenu">sound</router-link></li> -->
+        <li><router-link to="/dance" @click="closeMenu">dance</router-link></li>
       </ul>
     </div>
   </nav>
@@ -51,6 +52,7 @@ export default {
   display: flex;
   justify-content: space-around;
   list-style: none;
+  padding-left: 0px;
   gap: 1rem;
 }
 
@@ -58,7 +60,8 @@ export default {
   color: #FFCD86;
   align-items: center;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  font-variant: small-caps;
   transition: color 0.3s ease;
 }
 

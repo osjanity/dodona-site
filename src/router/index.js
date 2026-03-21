@@ -2,6 +2,7 @@ import {createRouter,createWebHistory} from 'vue-router';
 import HomePage from '../components/HomePage.vue';
 import SoundPage from '../components/SoundPage.vue';
 import PerformancesPage from '../components/PerformancesPage.vue'
+import DancePage from '../components/DancePage.vue'
 
 const router=createRouter({
     history: createWebHistory(),
@@ -20,6 +21,11 @@ const router=createRouter({
             path: '/performances',
             name: 'performancespage',
             component: PerformancesPage
+        },
+        {
+            path: '/dance',
+            name: 'dancepage',
+            component: DancePage
         }
     ]
 });
