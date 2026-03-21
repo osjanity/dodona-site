@@ -4,7 +4,7 @@
       <!-- Dances and Repertoire-->
       <div class="container-flavor">
         <h1 class="header-font-left" > Dances and Repertoire </h1> 
-        <p class="header-font-left"> This list is not comprehensive, but may be used as a partial resource for folk dancers interested in learning folk dances. All linked videos feature visible folk dancing at some point in the video.</p>
+        <p class="header-font-left"> This list isn't comprehensive, but may be used as a partial resource for those interested in learning folk dances. All linked videos feature visible folk dancing at some point in the video.</p>
         <p class="paragraph-font-left indented-list">
           <!-- Edit below this line to add a new entry for a Past Show -->
              ⟡ <a class=d-link href="https://youtu.be/VKicbvZJhm8"> Valle Treshe </a> <br>
