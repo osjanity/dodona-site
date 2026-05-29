@@ -1,6 +1,5 @@
 <template>
-  <center>
-  <div class="meta-container">
+  <div>
       <!-- Dances and Repertoire-->
       <div class="container-flavor">
         <h1 class="header-font-left" > Dances and Repertoire </h1> 
@@ -25,8 +24,7 @@
 
         </p>
     </div>
-</div>
-</center>
+  </div>
 </template>
 
 <style scoped>

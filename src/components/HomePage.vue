@@ -1,7 +1,6 @@
 
 <template>
-  <center>
-  <div class="meta-container">
+  <div>
 
       <!-- Header -->
       <header class="header">
@@ -56,8 +55,7 @@
 
       <br><br><br>
     
-    </div>
-  </center>
+  </div>
 </template>
 
 
