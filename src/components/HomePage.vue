@@ -6,18 +6,19 @@
       <header class="header">
         <center>
           <br><br><br>
-          <img width='50%' alt="Graphic by Jenette Sellin" src="../assets/dodona.png">
+          <img class="hero-image" alt="Graphic by Jenette Sellin" src="../assets/dodona.png">
+          <h1 class="dodona-title">Dodona</h1>
         </center>
       </header>
 
       <!-- Main text and map -->
       <div class="container-flavor">
-        <h1 class="header-font-left"> Music from Epirus and Albania </h1>
+        <h1 class="header-font-left"> Music from Greece and Albania </h1>
         <p class="paragraph-font-left">
-              Dodona performs the music that crosses the border between Epirus in Greece and Southern Albania. Each note in every song contains longing, romance, nostalgia, and celebration. This heartfelt and exciting group brings out their love for this specific region through the melodies that are both unique and everlasting. With a repertoire that goes from plaintive, to trance inducing, to driving, Dodona is one of the few bands in the Bay Area specifically focused on the Albanian and Epirus diaspora. So whether you love a good line dance with community, or even if you just love to dance with wild abandon, this unique project creates spaces both transcendent and uplifting. 
+              Dodona performs the music of Epirus in Northwestern Greece and Southern Albania as well as nearby regions. The songs are connected to the nature of life itself, each note expressing longing, love, lament, celebration, or nostalgia. This heartfelt and exciting group brings out their love for this specific region through the melodies that are both unique and everlasting. With a repertoire that goes from plaintive, to trance inducing, to driving, Dodona is one of the few bands in the Bay Area specifically focused on the Northwestern Greek and Albanian regions. So whether you love a good line dance with community, or even if you just love to dance with wild abandon, this unique project creates spaces both transcendent and uplifting. 
         </p>
         <p class="paragraph-font-left">
-              Dodona’s members are Genevieve Krause on vocals, Kent Kessinger on guitar, Jenette Sellin on accordion, Gregory Masaki Jenkins on vocals and clarinet, Sean Tergis on percussion, and Calvin Lai on clarinet.
+              Dodona’s members are Calvin Lai on clarinet, Genevieve Krause on vocals, Kent Kessinger on guitar, Jenette Sellin on accordion, Gregory Masaki Jenkins on vocals and clarinet, and Sean Tergis on percussion.
         </p>
         <!-- Map -->
         <!-- <center>
@@ -70,6 +71,15 @@
     background-color: #181F2A;
     display: flex;
     flex-wrap: wrap;
+}
+.dodona-title {
+  color: #F6A45E;
+  font-size: 4em;
+  margin: 0.1em 0 0;
+}
+.hero-image {
+  width: 60%;
+  margin: 0 auto;
 }
 .icon-link {
   width: 25px;

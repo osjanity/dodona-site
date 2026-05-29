@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar">
     <ul class="nav-links">
-      <li><router-link to="/">Home</router-link></li>
+      <li><router-link to="/">About</router-link></li>
       <li><router-link to="/performances">Performances</router-link></li>
       <li><router-link to="/dance">Dance</router-link></li>
     </ul>
