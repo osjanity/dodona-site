@@ -38,6 +38,7 @@ body, html {
   background-color: black;
   margin: 0;
   height: 100%;
+  overscroll-behavior: none;
 }
 h1, h2, h3 {
   font-family: 'Lato', sans-serif;
