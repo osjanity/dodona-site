@@ -2,30 +2,34 @@
   <div>
       <!-- Dances and Repertoire-->
       <div class="container-flavor">
-        <h1 class="header-font-left" > Dances and Repertoire </h1> 
-        <p class="header-font-left"> This list isn't comprehensive, but may be used as a partial resource for those interested in learning folk dances. All linked videos feature visible folk dancing at some point in the video.</p>
+        <h1 class="header-font-left" > Dances and Repertoire </h1>
+        <p class="header-font-left">{{ store.dance.disclaimer }}</p>
         <p class="paragraph-font-left indented-list">
-          <!-- Edit below this line to add a new entry for a Past Show -->
-             ⟡ <a class=d-link href="https://youtu.be/VKicbvZJhm8"> Valle Treshe </a> <br>
-             ⟡ <a class=d-link href="https://youtu.be/KGDX6E4q5PU?si=5sRgu07QirD-sXSS"> Vitori </a> <br>
-             ⟡ Papalambrena, Itia -  <a class=d-link href="https://www.youtube.com/watch?v=7FGmDGMdoMc"> Tsamiko </a> <br>
-             ⟡ <a class=d-link href="https://youtu.be/HV6totAE6gI?si=H1KWnzjZ4P6mkKqT"> Jarnana </a> <br>
-             ⟡ <a class=d-link href="https://youtu.be/h5Dqd40Te9s?si=7I0Td0Ou8AWCV7BN"> Ne mes te Delvines </a> <br>
-             ⟡ <a class=d-link href="https://youtu.be/HDV4YqKAous?si=4po5s0VUrIl5HHeS"> Millisou </a> <br>
-             ⟡ <a class=d-link href="https://youtube.com/shorts/wFyOiJzAaPU?si=7Oygz29lGWa4L8IS"> Nuse Moj Sorkadhe </a> <br>
-             ⟡ <a class=d-link href="https://youtu.be/HDV4YqKAous?si=4po5s0VUrIl5HHeS"> Doli Goça </a> <br>
-             ⟡ Endheka - <a class=d-link href="https://www.youtube.com/watch?si=fyL2cqa5rXRyydq1&v=3WJ4zWEyPN8&feature=youtu.be"> Karsilamas </a> <br> 
-             ⟡ <a class=d-link href="https://youtu.be/cqaPWV-9RDU"> Valle Katjuska </a> <br>   
-             ⟡ <a class=d-link href="https://youtu.be/wqXKnbWFJ84?si=PDJFyCeGN3vSROV6"> Sofka </a> <br>    
-             ⟡ Karakosteikos - <a class=d-link href="https://youtu.be/w1Yv5A_2t9k?si=740xkm9LZ8NQ8Y8f"> Tsamiko </a> <br> 
-             ⟡ <a class=d-link href="https://www.youtube.com/watch?v=3vky43MB55c"> Piyena to Dromo</a> <br> 
-             ⟡ Papa Yorgis/Nteli Papas - <a class=d-link href="https://www.youtube.com/watch?v=V_cciCOkWSE"> Sta Tria </a> <br> 
-             ⟡ Beno Mes T'abeli/Kondoula Vlaha/Tasia - <a class=d-link href="https://www.youtube.com/watch?v=tLUty0u9BCg"> Berati </a> <br>              
-
+          <template v-for="entry in store.dance.entries" :key="entry.name + entry.url">
+            <template v-if="entry.prefix">
+              ⟡ {{ entry.prefix }} - <a class="d-link" :href="entry.url">{{ entry.name }}</a>
+            </template>
+            <template v-else>
+              ⟡ <a class="d-link" :href="entry.url">{{ entry.name }}</a>
+            </template>
+            <br>
+          </template>
         </p>
     </div>
   </div>
 </template>
+
+<script>
+import { useContentStore } from '../stores/content';
+
+export default {
+  name: 'DancePage',
+  setup() {
+    const store = useContentStore();
+    return { store };
+  },
+};
+</script>
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
@@ -50,7 +54,7 @@
     color: #FFCD86;
   text-align: right;
 }
-.header-font-left{ 
+.header-font-left{
   color: #FFCD86;
   text-align: left;
 }
@@ -64,7 +68,7 @@
   text-align: right;
   font-size: large;
 }
-.paragraph-font-left{ 
+.paragraph-font-left{
   color: #F6A45E;
   text-align: left;
   font-size: large;
@@ -94,4 +98,3 @@ img {
   display: block;
 }
 </style>
-

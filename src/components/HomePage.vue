@@ -14,31 +14,20 @@
       <!-- Main text and map -->
       <div class="container-flavor">
         <h1 class="header-font-left"> Music from Greece and Albania </h1>
-        <p class="paragraph-font-left">
-              Dodona performs the music of Epirus in Northwestern Greece and Southern Albania as well as nearby regions. The songs are connected to the nature of life itself, each note expressing longing, love, lament, celebration, or nostalgia. This heartfelt and exciting group brings out their love for this specific region through the melodies that are both unique and everlasting. With a repertoire that goes from plaintive, to trance inducing, to driving, Dodona is one of the few bands in the Bay Area specifically focused on the Northwestern Greek and Albanian regions. So whether you love a good line dance with community, or even if you just love to dance with wild abandon, this unique project creates spaces both transcendent and uplifting. 
-        </p>
-        <p class="paragraph-font-left">
-              Dodona’s members are Calvin Lai on clarinet, Genevieve Krause on vocals, Kent Kessinger on guitar, Jenette Sellin on accordion, Gregory Masaki Jenkins on vocals and clarinet, and Sean Tergis on percussion.
-        </p>
-        <!-- Map -->
-        <!-- <center>
-          <img width='75%' alt="Graphic by Jenette Sellin" src="../assets/map.png">
-        </center> -->
+        <p class="paragraph-font-left">{{ store.home.description }}</p>
+        <p class="paragraph-font-left">{{ store.home.membersText }}</p>
       </div>
 
       <!-- Youtube Player -->
         <div class="youtube-container">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL2LJVnzoi_n3hIyfk5msH0QX74IsoYAmU&autohide=1&showinfo=0&controls=1&playlist=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div> 
+        </div>
 
       <!-- Contact-->
        <div class="booking-container">
       <br>
         <h1 class="header-font-left" > Contact </h1>
-        <p class="paragraph-font-left">
-            For booking, inquiries, and anything else, please contact
-            Calvin Lai at calvinlaiart@gmail.com.
-        </p>
+        <p class="paragraph-font-left">{{ store.home.contactText }}</p>
       </div>
 
         <!-- FB and Youtube icon links -->
@@ -58,16 +47,27 @@
         </Container>
 
       <br><br><br>
-    
+
   </div>
 </template>
 
+<script>
+import { useContentStore } from '../stores/content';
+
+export default {
+  name: 'HomePage',
+  setup() {
+    const store = useContentStore();
+    return { store };
+  },
+};
+</script>
 
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-.meta-container{ 
+.meta-container{
     justify-content: center;
     width: 100%;
     max-width: 800px;
@@ -110,7 +110,7 @@
     color: #FFCD86;
   text-align: right;
 }
-.header-font-left{ 
+.header-font-left{
   color: #FFCD86;
   text-align: left;
 }
@@ -124,7 +124,7 @@
   text-align: right;
   font-size: large;
 }
-.paragraph-font-left{ 
+.paragraph-font-left{
   color: #C37F46;
   text-align: left;
   font-size: large;
@@ -163,4 +163,3 @@ img {
   display: block;
 }
 </style>
-
