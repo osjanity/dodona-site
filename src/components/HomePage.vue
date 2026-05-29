@@ -73,7 +73,7 @@
     flex-wrap: wrap;
 }
 .dodona-title {
-  color: #F6A45E;
+  color: #C37F46;
   font-size: 4em;
   margin: 0.1em 0 0;
 }
@@ -105,17 +105,17 @@
   text-align: left;
 }
 .paragraph-font-center {
-  color: #F6A45E;
+  color: #C37F46;
   text-align: center;
   font-size:large;
 }
 .paragraph-font-right {
-  color: #F6A45E;
+  color: #C37F46;
   text-align: right;
   font-size: large;
 }
 .paragraph-font-left{ 
-  color: #F6A45E;
+  color: #C37F46;
   text-align: left;
   font-size: large;
 }
