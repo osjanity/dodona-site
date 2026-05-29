@@ -15,10 +15,10 @@
              ⟡ <a class=d-link href="https://youtu.be/HDV4YqKAous?si=4po5s0VUrIl5HHeS"> Millisou </a> <br>
              ⟡ <a class=d-link href="https://youtube.com/shorts/wFyOiJzAaPU?si=7Oygz29lGWa4L8IS"> Nuse Moj Sorkadhe </a> <br>
              ⟡ <a class=d-link href="https://youtu.be/HDV4YqKAous?si=4po5s0VUrIl5HHeS"> Doli Goça </a> <br>
-             ⟡ Endheka - <a class=d-link href="https://youtu.be/HDV4YqKAous?si=4po5s0VUrIl5HHeS"> Karsilamas </a> <br> 
+             ⟡ Endheka - <a class=d-link href="https://www.youtube.com/watch?si=fyL2cqa5rXRyydq1&v=3WJ4zWEyPN8&feature=youtu.be"> Karsilamas </a> <br> 
              ⟡ <a class=d-link href="https://youtu.be/cqaPWV-9RDU"> Valle Katjuska </a> <br>   
              ⟡ <a class=d-link href="https://youtu.be/wqXKnbWFJ84?si=PDJFyCeGN3vSROV6"> Sofka </a> <br>    
-             ⟡ Karakosteikos - <a class=d-link href="https://youtu.be/wqXKnbWFJ84?si=PDJFyCeGN3vSROV6"> Tsamiko </a> <br> 
+             ⟡ Karakosteikos - <a class=d-link href="https://youtu.be/w1Yv5A_2t9k?si=740xkm9LZ8NQ8Y8f"> Tsamiko </a> <br> 
              ⟡ <a class=d-link href="https://www.youtube.com/watch?v=3vky43MB55c"> Piyena to Dromo</a> <br> 
              ⟡ Papa Yorgis/Nteli Papas - <a class=d-link href="https://www.youtube.com/watch?v=V_cciCOkWSE"> Sta Tria </a> <br> 
              ⟡ Beno Mes T'abeli/Kondoula Vlaha/Tasia - <a class=d-link href="https://www.youtube.com/watch?v=tLUty0u9BCg"> Berati </a> <br>              
