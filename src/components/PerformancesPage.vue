@@ -1,6 +1,5 @@
 <template>
-  <center>
-  <div class="meta-container">
+  <div>
       <!-- Performances -->
       <div class="container-flavor">
         <h1 class="header-font-left" > Performances </h1> 
@@ -26,8 +25,7 @@
              <strong> ⟡ 3/16/24 </strong> - Berkeley Balkan Bacchanal, Starry Plough Pub, Berkeley, CA <br>
         </p>
     </div>
-</div>
-</center>
+  </div>
 </template>
 
 <style scoped>
