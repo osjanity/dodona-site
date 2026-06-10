@@ -6,11 +6,12 @@
         <h3 class="header-font-left"> Upcoming </h3>
         <p class="paragraph-font-left indented-list">
            <!-- Edit below this line to add a new entry for an Upcoming Show -->
-            <strong> ⟡ 5/30/2026 </strong> - Third Annual Occidental World Music and Dance Festival, Occidental Center for the Arts, Occidental, CA <br>
+            <strong> ⟡ Week of June 27th - July 4th </strong> - EEFC Balkan Camp, Mendocino, CA <br>
         </p>
         <h3 class="header-font-left"> Past </h3>
         <p class="paragraph-font-left indented-list">
           <!-- Edit below this line to add a new entry for a Past Show -->
+             <strong> ⟡ 5/30/2026 </strong> - Third Annual Occidental World Music and Dance Festival, Occidental Center for the Arts, Occidental, CA <br>
              <strong> ⟡ 1/17/2026 </strong> - Berkeley Balkan Bacchanal, Starry Plough Pub, Berkeley, CA <br>
              <strong> ⟡ 10/17/25 </strong> - Bakers and Commons, Berkeley, CA <br>
              <strong> ⟡ 9/5/25 </strong> - Selkie Fest, Fremont, CA <br>
